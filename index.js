@@ -5,7 +5,7 @@ exports.richWorld = function(req, res){
   let mood = req.query.mood || 'happy';
   let isWeatherBeautiful = false;
   if (!isWeatherBeautiful) {
-    console.log('Bad Weather ALWAYS breaks my demos!')
+    console.log('Bad Weather always breaks my demos!')
   }
   console.log('I made it this far with no erros, hooray!');
   res.status(200).send('Hello, ' + `${name}` + '!');
